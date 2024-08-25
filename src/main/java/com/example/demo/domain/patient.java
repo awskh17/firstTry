@@ -19,11 +19,10 @@ public class patient {
     public patient() {
     }
 
-    public patient(String name, int age, String gender, doctor doctor) {
+    public patient(String name, int age, String gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
-        this.doctor = doctor;
     }
 
     public long getId() {
